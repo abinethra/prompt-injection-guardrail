@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Model artifacts and logs
+models/
+logs/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.safetensors
+*.log
+
+# Data files (keep directory structure)
+data/*.csv
+!data/.gitkeep
+
+# Environment and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
