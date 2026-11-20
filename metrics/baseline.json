@@ -1,0 +1,14 @@
+{
+  "model": "tfidf_logreg_baseline",
+  "threshold": 0.5,
+  "num_samples": 130,
+  "precision": 0.973,
+  "recall": 0.9,
+  "f1": 0.9351,
+  "false_positive_rate": 0.0111,
+  "latency_ms": {
+    "p50": 0.8457,
+    "p95": 1.1816,
+    "mean": 0.9303
+  }
+}
